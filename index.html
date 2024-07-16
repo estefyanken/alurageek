@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/flexbox.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="encabezado">
+        <p>AluraGeek</p>
+        <img
+          src="/img/logo.png"
+          alt="Logo alura geek"
+        />
+
+        <div class="encabezado__buscar">
+          <input
+            type="search"
+            placeholder="Buscar"
+            id="buscar"
+            class="buscar__input"
+            data-busqueda
+          />
+          <button class="buscar__boton" data-boton-busqueda></button>
+        </div>
+      </nav>
+    </header>
+    <div class="container__general">
+        <form class="container__formulario" data-formulario>
+            <h2 class="formulario__titulo">¡Registra productos!</h3>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="nombre">Nombre del producto</label>
+                    <input name="nombre" class="campo__escrita" type="text" minlength="5" maxlength="50" required placeholder="Nombre del producto"
+                        id='nombre' data-nombre/>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="url">Imagen del producto</label>
+                    <input name="url" class="campo__escrita" type="url" required
+                        placeholder="https://" id='url' data-url/>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="precio">Precio del producto</label>
+                    <input name="precio" class="campo__escrita" type="number" min="10000" max="10000000" required placeholder=" [ej: 100000]"
+                        id='precio' data-precio/>
+                </div>
+                <input class="formulario__boton" type="submit" />
+        </form>
+      <ul class="productos__container" alt="productos alura" data-lista>
+      </ul>
+      
+    </div>
+    <footer class="footer">
+      <div class="footer__content">
+        <p>&copy; 2024 TiendaLego. Todos los derechos reservados.</p>
+        <p>Contactate con nosotros: <a>CompraCon@tiendalego.com</a></p>
+      </div>
+    </footer>
+
+    <script src="./js/mostrarProductos.js" type="module"></script>
+      <script src="./js/crearProducto.js" type="module"></script>
+      <script src="./js/filtrarProducto.js" type="module"></script>
+  </body>
+</html>

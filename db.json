@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Cuerpo de bomberos",
+      "precio": "699.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/60321_980x980.jpg?v=1645040749"
+    },
+    {
+      "id": "2",
+      "nombre": "Pantera Negra",
+      "precio": "2.299.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/76215_1c8a8404-adf5-4d88-a0df-316c149f4c15_980x980.jpg?v=1664833991c"
+    },
+    {
+      "id": "3",
+      "nombre": "Pájaro sol de shuri",
+      "precio": "349.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/76211_e41f7119-4792-42f8-8c21-5ca65ff288a5_980x980.jpg?v=1664833974"
+    },
+    {
+      "id": "4",
+      "nombre": "Parque acuático",
+      "precio": "349.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/41720_980x980.jpg?v=1662416115"
+    },
+    {
+      "id": "5",
+      "nombre": "Desafío acrobático ataque del tiburón",
+      "precio": "249.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/60342_980x980.jpg?v=1662416040"
+    },
+    {
+      "id": "6",
+      "nombre": "Bucle acrobático chimpancé devastador",
+      "precio": "489.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/60338_980x980.jpg?v=1662416017"
+    },
+    {
+      "id": "7",
+      "nombre": "Emboscada en furgoneta del triceratops",
+      "precio": "319.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/76950_980x980.jpg?v=1659385571"
+    },
+    {
+      "id": "8",
+      "nombre": "Duelo contra Zyclops",
+      "precio": "159.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/76830_980x980.jpg?v=1655160288"
+    },
+    {
+      "nombre": "Porsche 911",
+      "precio": "1.199.900",
+      "url": "https://tiendalego.com.co/cdn/shop/products/10295xxx_980x980.jpg?v=1614599100",
+      "id": "9"
+    }
+  ]
+}
