@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.container__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: initial;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.382);
+    width: 20%;
+    max-width: 600px;
+}
+
+.formulario__titulo {
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.formulario__campo {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.campo__etiqueta {
+    display: block;
+    font-size: 10px;
+    font-family: "Press Start 2P", system-ui;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.campo__escrita {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb9b9;
+    border-radius: 5px;
+    font-size: 6px;
+    font-family: "Press Start 2P", system-ui;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.campo__escrita:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(16, 20, 85, 0.965);
+}
+
+.formulario__boton {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(19, 39, 126);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Press Start 2P", system-ui;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+.formulario__boton:hover {
+    background-color: #121b4d;
+}
+
+@media (max-width: 1024px) {
+    .container__formulario {
+        width: 40%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container__formulario {
+        width: 65%;
+        padding: 15px;
+    }
+    
+    .formulario__titulo {
+        font-size: 20px;
+        
+    }
+    
+    .campo__escrita {
+        font-size: 14px;
+    }
+    
+    .formulario__boton {
+        font-size: 14px;
+
+    }
+}

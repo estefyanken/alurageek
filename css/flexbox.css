@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.productos__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
+
+.productos__item {
+    background-color: #0f0920;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* grid vídeos */
+
+.descripcion-producto {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 250px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.descripcion-producto h3 {
+    font-size: large;
+    font-family: "Press Start 2P", system-ui;
+    
+
+}
+
+.descripcion-producto img {
+    width: 20px;
+    height:20px;
+}
+
+
+.descripcion-producto p {
+    font-size: medium;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+
+.precio__producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    .productos__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .productos__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .encabezado  img {
+        width: auto;
+        height: 50px;
+    }
+}
